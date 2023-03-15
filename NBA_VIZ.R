@@ -7,7 +7,7 @@ library(gtExtras)
 library(ggsci)
 
 ### Importing Data
-df <- read_csv()
+df <- read_csv("https://raw.githubusercontent.com/TimileyinSamuel/NBA_ALL_TIME_SCORERS/main/nba_data.csv")
 
 ### Adding players' images to data set
 df <- df |> 
